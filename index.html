@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>BIỂU MẪU THÔNG TIN</h1>
+    <form action="submit_form.html" method="post" target="_blank" style="background-color: rgb(214, 212, 212);">
+        <label for="ht">Họ và tên</label><br>
+        <input type="text" name="ht" id="ht" placeholder="Nhập họ và tên của bạn" size="89" ><br>
+        <label for="">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="Nhập email của bạn" size="89" required><br>
+        <label for="mk">Mật khẩu</label><br>
+        <input type="password" name="mk" id="mk" placeholder="Nhập mật khẩu của bạn" size="89" minlength="8"><br>
+        <label for="date">Ngày sinh</label><br>
+        <input type="date" name="date" id="date" placeholder="Nhập ngày sinh của bạn" size="89">
+        <p>Chọn giới tính của bạn</p>
+        <input type="radio" id="nam" name="Giới tính" value="Nam">
+        <label for="nam">Nam</label><br>
+        <input type="radio" id="nữ" name="Giới tính" value="Nữ">
+        <label for="nữ">Nữ</label>
+        <p>Sở thích</p>
+        <input type="checkbox" name="" id="" value="Đọc sách">
+        <label for="">Đọc sách</label><br>
+        <input type="checkbox" name="" id="" value="Nghe nhạc">
+        <label for="">Nghe nhạc</label><br>
+        <input type="checkbox" name="" id="" value="Du lịch">
+        <label for="">Du lịch</label><br>
+        <br><label for="">Ảnh đại diện</label><br>
+        <input type="file" name="" id="" accept="image/*"><br>
+        <br><input type="button" name="" id="" value="Gửi" style="background-color: cadetblue; width: 60px; height: 30px;">
+    </form>
+</body>
+</html>
